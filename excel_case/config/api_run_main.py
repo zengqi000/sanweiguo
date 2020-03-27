@@ -1,3 +1,8 @@
+'''
+封装接口请求方式get/post/delete
+
+'''
+
 import requests
 import json
 class ApiRunMain(object):

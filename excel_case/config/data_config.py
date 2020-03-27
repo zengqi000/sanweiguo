@@ -1,3 +1,8 @@
+'''
+配置excel，获取excel内字段名称
+
+'''
+
 import json
 import os
 

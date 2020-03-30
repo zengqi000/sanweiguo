@@ -12,7 +12,7 @@ class RunTest:
 
     def go_on_run(self):
         rows_count = self.data.get_case_lines()
-        for row in range(1,rows_count):
+        for row in range(2,rows_count):
             url = self.data.get_request_url(row)
             method = self.data.get_request_method(row)
             is_run = self.data.get_is_run(row)
@@ -34,7 +34,7 @@ class RunTest:
                     re_res = re.sub('\W+','',res)
                     is_pass = str(OperationExcel().is_contain(re_expect,re_res))
                     if is_pass =='失败':
-                        print("========================错误信息=======")
+                        print("========================错误信息======================")
                         print("url:"+url)
                         print("请求参数为：")
                         print(data)

@@ -26,12 +26,14 @@ class RunTest:
                 res = '接口未发送请求，请检查url是否正确'
                 is_pass= 'False'
                 try:
+                    #发送接口请求，并把返回结果转换为字符格式
                     res = str(self.run_method.run_main(method,url,data,header))
                     #正则去掉字符串中所有的标点符号
                     #预期结果
                     re_expect = re.sub('\W+','',expect)
                     #实际结果
                     re_res = re.sub('\W+','',res)
+                    #判断实际结果是否包含预期结果
                     is_pass = str(OperationExcel().is_contain(re_expect,re_res))
                     if is_pass =='失败':
                         print("========================错误信息======================")

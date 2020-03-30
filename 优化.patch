@@ -1,0 +1,55 @@
+Index: excel_case/run_test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- excel_case/run_test.py	(revision 885db2450d3f8fb019cd46ff9beeb6b2f012a949)
++++ excel_case/run_test.py	(date 1585532876095)
+@@ -12,7 +12,7 @@
+ 
+     def go_on_run(self):
+         rows_count = self.data.get_case_lines()
+-        for row in range(1,rows_count):
++        for row in range(2,rows_count):
+             url = self.data.get_request_url(row)
+             method = self.data.get_request_method(row)
+             is_run = self.data.get_is_run(row)
+@@ -34,7 +34,7 @@
+                     re_res = re.sub('\W+','',res)
+                     is_pass = str(OperationExcel().is_contain(re_expect,re_res))
+                     if is_pass =='失败':
+-                        print("========================错误信息=======")
++                        print("========================错误信息======================")
+                         print("url:"+url)
+                         print("请求参数为：")
+                         print(data)
+diff --git excel_case/case/case.xls excel_case/case/case.xls
+index 1b484fad0e4d6d0db62364695cb2c2e83f49298b..02423eef3bf0fb83ccdf32077d389d13696dffda
+GIT binary patch
+literal 5632
+zc%1E6U1%It6h5=N*(94uvWcnCE!3rGHpVoYrbgR9vf2{+qLaUBqEXh#?(JsHWM`b8
+zB&!%3n_whJ3WBu~ghB;<srukg(FgTKL7~NpqEJZ;c~MXVf1%BI&Yj)Kj}gs7Bf_3#
+z&YbVubIv_??wvXJ?!^mL3uoR4Ey4zB2QRGHrQlzq6Ywg{gCJnLZIhV4m*8a==zm3}
+zB{-4(B6zp_(_)%Kn(syM!0WybkOO>+*Mp#uUSSz^R1I$r9pX920_D(#T!4AhRKQN2
+zRW;`c&adPAHE#JH=XY?;vz)h~?Sk+CT!=~a2Xd>p-?N9eRRG0(oBMptHTz%(d`zqO
+z$&-R(TLgFNX<6BhhTT39&H~QD5td=PtSmqcHl2lE>@dL3`S<Sqa6!MldI3=X`>Osq
+zj}PED*bnn%IgMY!KloR&1Waa_3E5y*VBT8;v@`*l1YsXELY+0+*+0<EeD{a!C@>hu
+z)yqJEINoJ2P>yaQHKLt@QUID!{;*eL`52o=NTOuowJJ5jBiN=w24n0;wCXoBvsV)B
+zG`7Y;2MaCw2HqSV?$2VY0ir!L)0z!+rUvhxS)QfrMLUCWNLwzgY6EcVCQ*k_mN5s0
+zktwQZ|Jb`M4fmh!PGAfbh9S-SSe~U;I5qjqWqdkyefeCUX1_{%r2w>G?EFZaIMn}d
+zvxgLV7NQNOHut+Nmy?D(f!>bqaR1Z`H>562%%?=#=zTe{)cg6|H}_4AQmg>njy^gc
+zyM^O$d|IWK20EU1Je((`@n>y7s}wy}do*<NqdC$3YVJm<ULyN)iN-?X6m5D&OOh~N
+zaWvHV-Q+7hY^I|-00*!aYB|p;<Dz|Wj-KNWqxZ(kq^VI2vU~)a&#f~@am<WzG%*g@
+z)5^dvS2~G>nU-EWBabj#j%g#VTNy8ar7L9sI(yW@#Tg%yv)DMq<RsH^6(?m=M$E=F
+zmN5NfW>|_@%-uEFFmQn{rzQq5OqLn#=xCan(Hf18jg2*C8A}YQYGXnjiOO0!sxw74
+zS+Yx4lUBlvwlp6+7}MkwYip`i(j#fJtqH@Vn2FhDR4h7%DVvsYSWU7>Yq+_oNd|a4
+zvQgO(j*KwFz%Ym-Jx&*4&FLeI(ZYt6NT9_rOHr~BG&faKRt~FH#zYVDcgBQZ;GrjQ
+zJTzqid@r5C7hG5P%6UN$ktd;&%T>HA1o7Rz^6F2Y-80w~i*wC!zS(iML^sj*0Bo2f
+z4|J~JEnd#4r+V&j3+GSqsJplv;+(!Qc(3i+krVDZ!EL5^Yc2M(pVOsSWQ|;h^7QxJ
+z@9dslirtLzxg(2@)tvh>b_Vv~7A=YX^g96!LWA()X`=J7{9VYE&&!<e{7We<@dR^Y
+zvz<?#PzhK0NcgTVXCd&>t+x=k1#t%nh&(RxAo9A%i^%69AEF``6(RDw$d9PlMa6tJ
+z@~8w+sf$Vx1#<a$Hsm+q3FPK7AKAn6D{~R$C%TC8D|Zp)SK%VcuhK>Sb%^o{x`^_t
+zauMZMji}vI4R290xK&xD02HV|1u9U13bai`#hNM+6=o{ORD`KOQo*JFb*|#I@*n?4
+zQJ`x_J^Vao;t{t4PZuVhGO}A*Ki5N%kdGz&gYCkuPug4jUkLgC3yJ!$cOB1zgSm6z
+dRtdMV!rJltYscW0yZSrYa{nt^$@3cb|0jaq-Le1x
+

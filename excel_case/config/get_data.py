@@ -74,5 +74,4 @@ class GetData:
 
 
 if __name__ =='__main__':
-    a = GetData().get_case_lines()
-    print(a)
+    print(GetData().get_case_lines())

@@ -1,5 +1,5 @@
 import random
-import time
+from time import sleep
 from selenium import webdriver
 
 # list = []
@@ -12,3 +12,9 @@ from selenium import webdriver
 
 driver = webdriver.Chrome()
 driver.get('https://www.baidu.com')
+driver.maximize_window()
+sleep(2)
+driver.close()
+
+
+

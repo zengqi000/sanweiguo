@@ -10,5 +10,5 @@ class GetFile:
         file_new = os.path.join(path,lists[-1])
         return file_new
 if __name__ =='__main__':
-    newfile = GetFile().new_file('D:/py/test/excel_case/data')
+    newfile = GetFile().new_file('D:/py/sanweiguo/excel_case/data')
     print(newfile)

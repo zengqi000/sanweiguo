@@ -1,5 +1,6 @@
 import random
 import time
+from selenium import webdriver
 
 # list = []
 # while True:
@@ -9,3 +10,5 @@ import time
 #     #print(a)
 #     print(list)
 
+driver = webdriver.Chrome()
+driver.get('https://www.baidu.com')

@@ -130,3 +130,5 @@ TypeError: projectManager() missing 1 required positional argument: 'id'
 2020-04-02 11:04:59,725 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
 2020-04-02 11:04:59,726 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
 2020-04-02 11:05:01,165 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:06:25,456 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0 HTTP/1.1" 301 0
+2020-04-02 11:06:25,478 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507

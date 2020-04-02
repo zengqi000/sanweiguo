@@ -14,7 +14,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^login$', views.login),
     url(r'^register$', views.register),
-    url(r'^index$', views.getIndex),
+    url(r'^index$', views.getIndex,name='index'),
     url(r'^welcome$', views.welcome),
     url(r'^projectList$', views.projectManager),
     url(r'^projectAdd$', views.projectAdd),

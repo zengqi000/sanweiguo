@@ -22,3 +22,6 @@ https://www.jianshu.com/p/Ch5xpk
 
 数据库迁移：python manage.py makemigrations
             python manage.py migrate
+腾讯云：
+zengqi
+Zzengqi!123

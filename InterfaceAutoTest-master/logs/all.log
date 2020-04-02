@@ -132,3 +132,438 @@ TypeError: projectManager() missing 1 required positional argument: 'id'
 2020-04-02 11:05:01,165 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
 2020-04-02 11:06:25,456 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0 HTTP/1.1" 301 0
 2020-04-02 11:06:25,478 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507
+2020-04-02 11:11:57,984 [django.request:222] [log:log_response] [WARNING]- Not Found: /cate.html
+2020-04-02 11:11:57,987 [django.server:157] [basehttp:log_message] [WARNING]- "GET /cate.html HTTP/1.1" 404 3402
+2020-04-02 11:11:59,564 [django.request:222] [log:log_response] [WARNING]- Not Found: /city.html
+2020-04-02 11:11:59,566 [django.server:157] [basehttp:log_message] [WARNING]- "GET /city.html HTTP/1.1" 404 3402
+2020-04-02 11:12:01,655 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-list.html
+2020-04-02 11:12:01,655 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-list.html HTTP/1.1" 404 3420
+2020-04-02 11:12:02,178 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-role.html
+2020-04-02 11:12:02,180 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-role.html HTTP/1.1" 404 3420
+2020-04-02 11:12:02,655 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-cate.html
+2020-04-02 11:12:02,656 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-cate.html HTTP/1.1" 404 3420
+2020-04-02 11:12:03,084 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-rule.html
+2020-04-02 11:12:03,085 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-rule.html HTTP/1.1" 404 3420
+2020-04-02 11:12:31,939 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:12:35,872 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:12:35,956 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:12:35,960 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:12:36,026 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:12:36,043 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:14:05,283 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:14:13,940 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:14:13,976 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/css/font.css HTTP/1.1" 200 505
+2020-04-02 11:14:13,977 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/css/xadmin.css HTTP/1.1" 200 10034
+2020-04-02 11:14:13,983 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/layui.js HTTP/1.1" 200 6542
+2020-04-02 11:14:13,985 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 200 84355
+2020-04-02 11:14:13,989 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/js/xadmin.js HTTP/1.1" 200 6107
+2020-04-02 11:14:13,991 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/layui.css HTTP/1.1" 200 60227
+2020-04-02 11:14:14,081 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:14:14,085 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:14:14,086 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/form.js HTTP/1.1" 200 7925
+2020-04-02 11:14:14,098 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/fonts/iconfont.woff HTTP/1.1" 200 30200
+2020-04-02 11:14:14,102 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840
+2020-04-02 11:14:14,118 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/layer.js HTTP/1.1" 200 22063
+2020-04-02 11:14:14,149 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425
+2020-04-02 11:14:14,152 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/element.js HTTP/1.1" 200 7264
+2020-04-02 11:14:14,171 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:14:14,173 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:14:15,974 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:14:16,032 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:14:16,038 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:14:16,086 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:14:16,090 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:15:25,228 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:15:33,494 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:15:33,530 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/css/font.css HTTP/1.1" 200 505
+2020-04-02 11:15:33,530 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/css/xadmin.css HTTP/1.1" 200 10034
+2020-04-02 11:15:33,536 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/layui.js HTTP/1.1" 200 6542
+2020-04-02 11:15:33,537 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 200 84355
+2020-04-02 11:15:33,541 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/js/xadmin.js HTTP/1.1" 200 6107
+2020-04-02 11:15:33,595 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/layui.css HTTP/1.1" 200 60227
+2020-04-02 11:15:33,638 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:15:33,638 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:15:33,681 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/fonts/iconfont.woff HTTP/1.1" 200 30200
+2020-04-02 11:15:33,689 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/form.js HTTP/1.1" 200 7925
+2020-04-02 11:15:33,690 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840
+2020-04-02 11:15:33,727 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/layer.js HTTP/1.1" 200 22063
+2020-04-02 11:15:33,759 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/element.js HTTP/1.1" 200 7264
+2020-04-02 11:15:33,760 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425
+2020-04-02 11:15:33,781 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:15:33,785 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:15:36,071 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:15:36,129 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:15:36,131 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:15:36,197 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:15:36,204 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:15:39,010 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/modules/layer/default/loading-1.gif HTTP/1.1" 200 701
+2020-04-02 11:15:39,011 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 11493
+2020-04-02 11:16:14,738 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 11:16:15,761 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:16:17,269 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0 HTTP/1.1" 301 0
+2020-04-02 11:16:17,296 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507
+2020-04-02 11:17:29,469 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 11:17:30,461 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:22:11,987 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 11:22:13,065 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:22:16,502 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:22:16,568 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:22:16,582 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:22:16,620 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:22:16,629 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:22:18,526 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /api/projectManager/0/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceAutoTest\activator.py", line 14, in process
+    result = fun(request, index) if index else fun(request)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 29, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 153, in projectManager
+    return  render(request,'templates/project-list.html',context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/project-list.html
+2020-04-02 11:22:18,529 [django.server:157] [basehttp:log_message] [ERROR]- "GET /api/projectManager/0/ HTTP/1.1" 500 95507
+2020-04-02 11:22:19,724 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/EnviromentManager/0/ HTTP/1.1" 200 6693
+2020-04-02 11:22:23,826 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /api/projectManager/0/
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceAutoTest\activator.py", line 14, in process
+    result = fun(request, index) if index else fun(request)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 29, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 153, in projectManager
+    return  render(request,'templates/project-list.html',context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/project-list.html
+2020-04-02 11:22:23,828 [django.server:157] [basehttp:log_message] [ERROR]- "GET /api/projectManager/0/ HTTP/1.1" 500 95507
+2020-04-02 11:22:31,042 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 11:22:32,440 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:22:39,930 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 11:22:40,917 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:22:51,097 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/EnviromentManager/0/ HTTP/1.1" 200 6693
+2020-04-02 11:23:01,112 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 11:23:02,146 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 11:23:34,257 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:23:34,344 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/js/jquery.min.map HTTP/1.1" 404 1677
+2020-04-02 11:23:34,347 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:23:34,389 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:23:34,395 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:25:29,305 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:25:29,306 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3357
+2020-04-02 11:26:07,187 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:26:07,188 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3357
+2020-04-02 11:26:35,122 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12390
+2020-04-02 11:26:35,184 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:26:35,207 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:26:35,214 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:26:36,438 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:26:36,439 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:26:43,543 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12390
+2020-04-02 11:26:43,576 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:26:50,911 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:26:50,912 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:26:56,437 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:26:56,438 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:27:05,255 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:27:05,255 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:28:13,361 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:13,362 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:28:16,269 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:16,271 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:28:18,933 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:18,935 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:28:20,561 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:28:20,562 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:28:40,220 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/logout HTTP/1.1" 301 0
+2020-04-02 11:28:40,248 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/logout/ HTTP/1.1" 302 0
+2020-04-02 11:28:40,254 [django.server:157] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 3442
+2020-04-02 11:28:40,292 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/images/bg.png HTTP/1.1" 200 28211
+2020-04-02 11:28:40,295 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/images/aiwrap.png HTTP/1.1" 200 3032
+2020-04-02 11:28:50,335 [django.server:157] [basehttp:log_message] [INFO]- "POST /login HTTP/1.1" 302 0
+2020-04-02 11:28:50,353 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:28:50,368 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:28:50,414 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:28:53,747 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:28:53,787 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:28:53,809 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:28:53,814 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:31:34,558 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:31:34,589 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:31:34,617 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:31:34,622 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:31:36,237 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:31:36,268 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:31:36,291 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:31:36,296 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:31:37,344 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:31:37,381 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:31:37,406 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:31:37,412 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:33:52,072 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12385
+2020-04-02 11:33:52,089 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/lib/layui/layui.js%20charset=%22utf-8%22 HTTP/1.1" 404 1756
+2020-04-02 11:33:52,361 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7966
+2020-04-02 11:33:52,389 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:33:52,394 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:33:53,913 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12385
+2020-04-02 11:33:53,933 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/lib/layui/layui.js%20charset=%22utf-8%22 HTTP/1.1" 404 1756
+2020-04-02 11:33:54,238 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7966
+2020-04-02 11:33:54,281 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:33:54,285 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:34:03,626 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12385
+2020-04-02 11:34:03,655 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/lib/layui/layui.js%20charset=%22utf-8%22 HTTP/1.1" 404 1756
+2020-04-02 11:34:03,911 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7966
+2020-04-02 11:34:03,929 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:34:03,934 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:34:20,846 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:34:20,892 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:34:20,917 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:34:20,920 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:34:22,140 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:34:22,141 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:34:28,490 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/testCaseManager/0/ HTTP/1.1" 200 12276
+2020-04-02 11:35:05,022 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:35:05,101 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:35:05,140 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:35:05,145 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:35:37,466 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12388
+2020-04-02 11:35:37,503 [django.server:157] [basehttp:log_message] [WARNING]- "GET /static/lib/layui/layui.js%20charset=%22utf-8%22 HTTP/1.1" 404 1756
+2020-04-02 11:35:37,776 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7969
+2020-04-02 11:35:37,843 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:35:37,848 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:35:51,471 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12385
+2020-04-02 11:35:51,504 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:35:51,507 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:35:54,808 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12385
+2020-04-02 11:35:54,831 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:35:54,835 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:36:05,111 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:36:05,147 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:36:05,199 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:36:05,203 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:57:44,184 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:57:44,284 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:57:44,313 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:57:44,317 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:57:56,018 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:57:56,084 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:58:11,092 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507
+2020-04-02 11:58:12,123 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/EnviromentManager/0/ HTTP/1.1" 200 6693
+2020-04-02 11:58:14,241 [django.request:222] [log:log_response] [WARNING]- Not Found: /xxx.html
+2020-04-02 11:58:14,242 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xxx.html HTTP/1.1" 404 3399
+2020-04-02 11:58:14,989 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 11:58:14,991 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xx.html HTTP/1.1" 404 3396
+2020-04-02 11:58:15,375 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 11:58:15,376 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xx.html HTTP/1.1" 404 3396
+2020-04-02 11:58:19,339 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:58:19,340 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:58:28,661 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12380
+2020-04-02 11:58:28,693 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:58:28,714 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:58:28,718 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:58:38,218 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:58:38,218 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:59:03,196 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html
+2020-04-02 11:59:03,197 [django.server:157] [basehttp:log_message] [WARNING]- "GET /index.html HTTP/1.1" 404 3405
+2020-04-02 11:59:06,511 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12369
+2020-04-02 11:59:06,549 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 11:59:06,574 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 11:59:06,577 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 11:59:07,579 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:59:07,580 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3357
+2020-04-02 12:00:51,251 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\urls.py changed, reloading.
+2020-04-02 12:00:52,277 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 12:01:13,395 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:01:13,396 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3371
+2020-04-02 12:01:21,307 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12382
+2020-04-02 12:01:21,352 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:01:21,374 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 12:01:21,377 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 12:01:22,733 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:01:22,734 [django.server:157] [basehttp:log_message] [WARNING]- "GET /%%20url%20'index'% HTTP/1.1" 404 3469
+2020-04-02 12:03:34,822 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:03:34,823 [django.server:157] [basehttp:log_message] [WARNING]- "GET /%%20url%20'index'% HTTP/1.1" 404 3469
+2020-04-02 12:03:37,241 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:03:37,242 [django.server:157] [basehttp:log_message] [WARNING]- "GET /%%20url%20'index'% HTTP/1.1" 404 3469
+2020-04-02 12:03:42,746 [django.request:222] [log:log_response] [WARNING]- Not Found: /% url 'index'%
+2020-04-02 12:03:42,747 [django.server:157] [basehttp:log_message] [WARNING]- "GET /%%20url%20'index'% HTTP/1.1" 404 3469
+2020-04-02 12:05:39,149 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /index
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 29, in wrapper
+    return func(request, *args, **kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 41, in getIndex
+    return  render(request,'index.html',context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2020-04-02 12:05:39,154 [django.server:157] [basehttp:log_message] [ERROR]- "GET /index HTTP/1.1" 500 156606
+2020-04-02 12:05:39,304 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 12:05:39,307 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 12:06:18,122 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 12:06:25,202 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:25,507 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:28,416 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:28,461 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:29,429 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:29,462 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:30,014 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:30,056 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:30,497 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:30,523 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:30,993 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:31,030 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:31,483 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:31,512 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:31,922 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:31,958 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:32,225 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:32,266 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:32,455 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:32,488 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:32,629 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:32,669 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:32,802 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12465
+2020-04-02 12:06:32,841 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:34,950 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:06:34,951 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3371
+2020-04-02 12:06:52,610 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:06:52,610 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3371
+2020-04-02 12:06:56,786 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 12:06:56,788 [django.server:157] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 3371
+2020-04-02 12:06:59,122 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:06:59,150 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:06:59,172 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 12:06:59,177 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 12:07:00,689 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:00,720 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:01,151 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:01,189 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:01,349 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:01,389 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:01,526 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:01,560 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:01,694 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:01,723 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:01,840 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:01,872 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:01,989 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:02,041 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:02,166 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:02,207 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 12:07:02,508 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 12:07:02,533 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 14:20:57,295 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/logout/ HTTP/1.1" 302 0
+2020-04-02 14:20:57,308 [django.server:157] [basehttp:log_message] [INFO]- "GET /login HTTP/1.1" 200 3442
+2020-04-02 14:20:58,879 [django.server:157] [basehttp:log_message] [INFO]- "POST /login HTTP/1.1" 302 0
+2020-04-02 14:20:58,897 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 14:20:58,910 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 14:20:58,948 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 14:22:36,245 [django.request:222] [log:log_response] [WARNING]- Not Found: /xxx.html
+2020-04-02 14:22:36,245 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xxx.html HTTP/1.1" 404 3413
+2020-04-02 14:22:44,771 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507
+2020-04-02 14:23:32,736 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 14:23:33,841 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 14:23:35,882 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12468
+2020-04-02 14:23:35,927 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 14:23:35,950 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 14:23:35,958 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 14:23:38,075 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507
+2020-04-02 14:23:42,496 [django.utils.autoreload:222] [autoreload:trigger_reload] [INFO]- D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py changed, reloading.
+2020-04-02 14:23:43,968 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-02 14:23:49,399 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/projectManager/0/ HTTP/1.1" 200 5507
+2020-04-02 14:25:57,242 [django.request:222] [log:log_response] [WARNING]- Not Found: /xxx.html
+2020-04-02 14:25:57,243 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xxx.html HTTP/1.1" 404 3413
+2020-04-02 14:25:58,014 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 14:25:58,015 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xx.html HTTP/1.1" 404 3410
+2020-04-02 14:26:29,078 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12476
+2020-04-02 14:26:29,126 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 14:26:29,151 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 14:26:29,156 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 14:26:32,702 [django.request:222] [log:log_response] [WARNING]- Not Found: /environ-add.html
+2020-04-02 14:26:32,703 [django.server:157] [basehttp:log_message] [WARNING]- "GET /environ-add.html HTTP/1.1" 404 3437
+2020-04-02 14:27:02,782 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12477
+2020-04-02 14:27:02,848 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 14:27:02,869 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 14:27:02,877 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 14:27:11,365 [django.request:222] [log:log_response] [WARNING]- Not Found: /xx.html
+2020-04-02 14:27:11,366 [django.server:157] [basehttp:log_message] [WARNING]- "GET /xx.html HTTP/1.1" 404 3410
+2020-04-02 14:27:14,062 [django.request:222] [log:log_response] [WARNING]- Not Found: /environ-add.html
+2020-04-02 14:27:14,063 [django.server:157] [basehttp:log_message] [WARNING]- "GET /environ-add.html HTTP/1.1" 404 3437
+2020-04-02 14:27:33,190 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12486
+2020-04-02 14:27:33,263 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 14:27:33,283 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-02 14:27:33,287 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-02 14:27:37,768 [django.request:222] [log:log_response] [WARNING]- Not Found: /templates/environ-add.html
+2020-04-02 14:27:37,769 [django.server:157] [basehttp:log_message] [WARNING]- "GET /templates/environ-add.html HTTP/1.1" 404 3467
+2020-04-02 15:29:41,521 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12486
+2020-04-02 15:29:41,560 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 15:29:42,555 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12486
+2020-04-02 15:29:42,584 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 15:29:43,401 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12486
+2020-04-02 15:29:43,441 [django.server:157] [basehttp:log_message] [INFO]- "GET /welcome HTTP/1.1" 200 7961
+2020-04-02 15:31:15,205 [django.request:222] [log:log_response] [WARNING]- Not Found: /unicode.html
+2020-04-02 15:31:15,206 [django.server:157] [basehttp:log_message] [WARNING]- "GET /unicode.html HTTP/1.1" 404 3425
+2020-04-02 15:31:18,083 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-role.html
+2020-04-02 15:31:18,084 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-role.html HTTP/1.1" 404 3434
+2020-04-02 15:31:18,628 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-cate.html
+2020-04-02 15:31:18,629 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-cate.html HTTP/1.1" 404 3434
+2020-04-02 15:31:19,369 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-rule.html
+2020-04-02 15:31:19,370 [django.server:157] [basehttp:log_message] [WARNING]- "GET /admin-rule.html HTTP/1.1" 404 3434
+2020-04-02 15:31:29,830 [django.server:157] [basehttp:log_message] [INFO]- "GET /api/testCaseManager/0/ HTTP/1.1" 200 12276

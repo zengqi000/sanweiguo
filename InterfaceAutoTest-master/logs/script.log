@@ -1,0 +1,18 @@
+2020-04-02 10:38:52,711 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 10:39:19,177 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 10:50:19,884 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin
+2020-04-02 10:58:34,511 [django.request:222] [log:log_response] [WARNING]- Not Found: /projectManager
+2020-04-02 10:58:58,755 [django.request:222] [log:log_response] [WARNING]- Not Found: /projectList$
+2020-04-02 10:59:01,999 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /projectList
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: projectManager() missing 1 required positional argument: 'id'
+2020-04-02 11:04:38,846 [django.request:222] [log:log_response] [WARNING]- Not Found: /cate.html
+2020-04-02 11:04:41,076 [django.request:222] [log:log_response] [WARNING]- Not Found: /city.html
+2020-04-02 11:04:55,285 [django.request:222] [log:log_response] [WARNING]- Not Found: /
+2020-04-02 11:04:59,725 [django.request:222] [log:log_response] [WARNING]- Not Found: /index.html

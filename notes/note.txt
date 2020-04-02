@@ -17,4 +17,8 @@ https://www.jianshu.com/p/Ch5xpk
 十万到百万级的服务，响应能达到tps50 /200ms就可以了
 后台服务，能达到tps 20 / 200ms即可（通常后台同时使用也没多少人）
 秒杀类的短时间高并发……TPS100或200 在 100ms内响应 应该也能撑一段时间（具体情况还是要看业务量）
-1
+
+
+
+数据库迁移：python manage.py makemigrations
+            python manage.py migrate

@@ -1,0 +1,89 @@
+2020-04-02 10:38:35,148----日志级别:DEBUG---行号: 623 ---函数名:__init__--日志内容: Using proactor: IocpProactor 
+2020-04-02 10:38:52,711----日志级别:WARNING---行号: 222 ---函数名:log_response--日志内容: Not Found: / 
+2020-04-02 10:38:52,713----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET / HTTP/1.1" 404 3203 
+2020-04-02 10:39:19,177----日志级别:WARNING---行号: 222 ---函数名:log_response--日志内容: Not Found: / 
+2020-04-02 10:39:19,179----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET / HTTP/1.1" 404 3203 
+2020-04-02 10:39:19,293----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-02 10:39:19,297----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-02 10:39:34,351----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 10:39:34,364----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/css/font.css HTTP/1.1" 200 505 
+2020-04-02 10:39:34,367----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/css/xadmin.css HTTP/1.1" 200 10034 
+2020-04-02 10:39:34,371----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.js HTTP/1.1" 200 84355 
+2020-04-02 10:39:34,374----日志级别:INFO---行号:  157 ---函数名:log_message--日志内容: "GET /static/lib/layui/layui.js HTTP/1.1" 200 6542
+2020-04-02 10:39:34,423----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/layui.css HTTP/1.1" 200 60227 
+2020-04-02 10:39:34,425----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/xadmin.js HTTP/1.1" 200 6107 
+2020-04-02 10:39:34,442----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/form.js HTTP/1.1" 200 7925 
+2020-04-02 10:39:34,448----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/images/bg.png HTTP/1.1" 200 28211 
+2020-04-02 10:39:34,451----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/images/aiwrap.png HTTP/1.1" 200 3032 
+2020-04-02 10:39:34,472----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/layer.js HTTP/1.1" 200 22063 
+2020-04-02 10:39:34,503----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425 
+2020-04-02 10:39:34,506----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840 
+2020-04-02 10:39:34,509----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/element.js HTTP/1.1" 200 7264 
+2020-04-02 10:39:44,123----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/loading-1.gif HTTP/1.1" 200 701 
+2020-04-02 10:39:44,123----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /register HTTP/1.1" 200 6656 
+2020-04-02 10:39:44,124----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/icon.png HTTP/1.1" 200 11493 
+2020-04-02 10:40:09,614----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /index HTTP/1.1" 302 0 
+2020-04-02 10:40:09,620----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 10:40:30,120----日志级别:DEBUG---行号: 623 ---函数名:__init__--日志内容: Using proactor: IocpProactor 
+2020-04-02 10:41:32,203----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 10:41:32,260----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-02 10:41:32,263----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-02 10:41:37,536----日志级别:INFO---行号: 84 ---函数名:login--日志内容: 用户名:admin和密码:123456存在错误啊！  
+2020-04-02 10:44:19,980----日志级别:INFO---行号: 88 ---函数名:login--日志内容: 用户名:admin和密码:123456存在错误啊！  
+2020-04-02 10:45:44,113----日志级别:DEBUG---行号: 623 ---函数名:__init__--日志内容: Using proactor: IocpProactor 
+2020-04-02 10:46:08,708----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 10:46:08,803----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-02 10:46:08,806----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-02 10:46:15,032----日志级别:INFO---行号: 85 ---函数名:login--日志内容: 用户名:admin和密码:123456存在错误啊！  
+2020-04-02 10:49:15,357----日志级别:DEBUG---行号: 623 ---函数名:__init__--日志内容: Using proactor: IocpProactor 
+2020-04-02 10:49:50,365----日志级别:INFO---行号: 85 ---函数名:login--日志内容: 用户名:root和密码:123456存在错误啊！  
+2020-04-02 10:51:06,650----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /admin HTTP/1.1" 301 0 
+2020-04-02 10:51:06,670----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /admin/ HTTP/1.1" 302 0 
+2020-04-02 10:51:06,770----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917 
+2020-04-02 10:51:06,803----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/css/login.css HTTP/1.1" 200 1233 
+2020-04-02 10:51:06,804----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/css/base.css HTTP/1.1" 200 16378 
+2020-04-02 10:51:06,815----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052 
+2020-04-02 10:51:06,832----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 
+2020-04-02 10:51:06,879----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876 
+2020-04-02 10:51:06,880----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692 
+2020-04-02 10:51:06,882----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-02 10:51:11,183----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2078 
+2020-04-02 10:51:11,243----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184 
+2020-04-02 10:51:17,216----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 
+2020-04-02 10:51:17,256----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /admin/ HTTP/1.1" 200 3045 
+2020-04-02 10:51:17,287----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412 
+2020-04-02 10:51:17,300----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380 
+2020-04-02 10:51:17,301----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331 
+2020-04-02 10:51:21,228----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /admin/ HTTP/1.1" 200 3045 
+2020-04-02 10:51:21,257----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-02 10:51:21,264----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 
+2020-04-02 10:51:27,171----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /index HTTP/1.1" 302 0 
+2020-04-02 10:51:27,179----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 10:51:27,251----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.map HTTP/1.1" 404 1677 
+2020-04-02 10:51:28,744----日志级别:INFO---行号: 85 ---函数名:login--日志内容: 用户名:root和密码:123456存在错误啊！  
+2020-04-02 10:58:34,511----日志级别:WARNING---行号: 222 ---函数名:log_response--日志内容: Not Found: /projectManager 
+2020-04-02 10:58:34,514----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /projectManager HTTP/1.1" 404 3417 
+2020-04-02 10:58:58,755----日志级别:WARNING---行号: 222 ---函数名:log_response--日志内容: Not Found: /projectList$ 
+2020-04-02 10:58:58,756----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /projectList$ HTTP/1.1" 404 3411 
+2020-04-02 10:59:01,999----日志级别:ERROR---行号: 222 ---函数名:log_response--日志内容: Internal Server Error: /projectList 
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: projectManager() missing 1 required positional argument: 'id'
+2020-04-02 10:59:02,001----日志级别:ERROR---行号: 157 ---函数名:log_message--日志内容: "GET /projectList HTTP/1.1" 500 67003 
+2020-04-02 11:01:13,471----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 11:01:13,528----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.map HTTP/1.1" 404 1677 
+2020-04-02 11:01:14,821----日志级别:INFO---行号: 85 ---函数名:login--日志内容: 用户名:root和密码:123456存在错误啊！  
+2020-04-02 11:02:09,219----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /register HTTP/1.1" 200 6656 
+2020-04-02 11:03:29,908----日志级别:INFO---行号: 222 ---函数名:trigger_reload--日志内容: D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\urls.py changed, reloading. 
+2020-04-02 11:03:46,708----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /register HTTP/1.1" 200 6656 
+2020-04-02 11:03:46,804----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.map HTTP/1.1" 404 1677 
+2020-04-02 11:04:13,829----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "POST /register HTTP/1.1" 200 39 
+2020-04-02 11:04:26,809----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /index HTTP/1.1" 302 0 
+2020-04-02 11:04:26,815----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /login HTTP/1.1" 200 3442 
+2020-04-02 11:04:26,868----日志级别:WARNING---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.map HTTP/1.1" 404 1677 
+2020-04-02 11:04:31,392----日志级别:INFO---行号: 77 ---函数名:login--日志内容: zengqi 登录成功 

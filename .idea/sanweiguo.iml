@@ -2,6 +2,11 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Interface_TestPlatform-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface_TestPlatform-master/apps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface_TestPlatform-master/apps/projects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface_TestPlatform-master/apps/apitest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InterfaceAutoTest-master" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (py3)" jdkType="Python SDK" />

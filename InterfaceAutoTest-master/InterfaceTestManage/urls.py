@@ -18,6 +18,8 @@ urlpatterns = [
     url(r'^welcome$', views.welcome),
     url(r'^projectList$', views.projectManager),
     url(r'^projectAdd$', views.projectAdd),
+    url(r'^test_web', views.test_web),
+
 
 
 ]

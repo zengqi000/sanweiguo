@@ -40,7 +40,8 @@ class GetData:
             return None
         else:
             try:
-                return eval(header)
+                #return eval(header)
+                return OperationJson().get_data('yes')
             except:
                 return '异常处理绕过验证函数参数是否有效'
     #获取请求数据

@@ -17,5 +17,7 @@ class OperationJson:
     def get_data(self,kworld):
         return self.data[kworld]
 if __name__ == '__main__':
-    opjson = OperationJson()
-    print(opjson.get_data('header'))
+
+    a=OperationJson().get_data('yes')
+    print(a)
+    print(type(a))

@@ -607,3 +607,6 @@ def test_bet(request):
         passsword = request.POST.get('password')
 
         return
+def test_web(request):
+    if request.method =='GET':
+        return render(request,'welcome.html')

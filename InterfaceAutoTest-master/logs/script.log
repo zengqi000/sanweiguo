@@ -148,3 +148,22 @@ django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a val
 2020-04-02 15:31:18,083 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-role.html
 2020-04-02 15:31:18,628 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-cate.html
 2020-04-02 15:31:19,369 [django.request:222] [log:log_response] [WARNING]- Not Found: /admin-rule.html
+2020-04-03 08:49:20,552 [django.request:222] [log:log_response] [WARNING]- Not Found: /test_web$
+2020-04-03 08:54:51,948 [django.request:222] [log:log_response] [ERROR]- Internal Server Error: /test_web
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py\sanweiguo\InterfaceAutoTest-master\InterfaceTestManage\views.py", line 612, in test_web
+    return render(request,'testbet-add.html')
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\lenovo\Envs\py3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testbet-add.html
+2020-04-03 08:55:24,234 [django.request:222] [log:log_response] [WARNING]- Not Found: /ajaxtest

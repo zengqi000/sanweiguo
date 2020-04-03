@@ -62,6 +62,7 @@ class RunTest:
                 print('用例名称：'+name+'--------通过')
                 print("实际结果："+res)
 if __name__ == '__main__':
+
     run = RunTest()
     run.go_on_run()
 

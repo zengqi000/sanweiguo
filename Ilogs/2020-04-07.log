@@ -115,3 +115,18 @@
 2020-04-07 15:37:58,285----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425 
 2020-04-07 15:37:58,286----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840 
 2020-04-07 15:38:05,663----日志级别:INFO---行号: 85 ---函数名:login--日志内容: 用户名:admin和密码:123456存在错误啊！  
+2020-04-07 17:38:20,394----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /index HTTP/1.1" 200 12526 
+2020-04-07 17:38:20,457----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/css/font.css HTTP/1.1" 200 505 
+2020-04-07 17:38:20,458----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/css/xadmin.css HTTP/1.1" 200 10034 
+2020-04-07 17:38:20,462----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/layui.js HTTP/1.1" 200 6542 
+2020-04-07 17:38:20,464----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/jquery.min.js HTTP/1.1" 200 84355 
+2020-04-07 17:38:20,476----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/js/xadmin.js HTTP/1.1" 200 6107 
+2020-04-07 17:38:20,477----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/layui.css HTTP/1.1" 200 60227 
+2020-04-07 17:38:20,543----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/form.js HTTP/1.1" 200 7925 
+2020-04-07 17:38:20,600----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/layer.js HTTP/1.1" 200 22063 
+2020-04-07 17:38:20,601----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/fonts/iconfont.woff HTTP/1.1" 200 30200 
+2020-04-07 17:38:20,601----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840 
+2020-04-07 17:38:20,645----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/lay/modules/element.js HTTP/1.1" 200 7264 
+2020-04-07 17:38:20,645----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425 
+2020-04-07 17:38:20,666----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /favicon.ico HTTP/1.1" 302 0 
+2020-04-07 17:38:20,671----日志级别:INFO---行号: 157 ---函数名:log_message--日志内容: "GET /static/favicon.ico HTTP/1.1" 200 1424 

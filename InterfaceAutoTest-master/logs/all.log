@@ -810,3 +810,19 @@ django.template.exceptions.TemplateDoesNotExist: testbet-add.html
 2020-04-07 15:38:16,842 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12526
 2020-04-07 15:38:16,878 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
 2020-04-07 15:38:16,884 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424
+2020-04-07 17:38:08,013 [django.utils.autoreload:598] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2020-04-07 17:38:20,394 [django.server:157] [basehttp:log_message] [INFO]- "GET /index HTTP/1.1" 200 12526
+2020-04-07 17:38:20,457 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/css/font.css HTTP/1.1" 200 505
+2020-04-07 17:38:20,458 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/css/xadmin.css HTTP/1.1" 200 10034
+2020-04-07 17:38:20,462 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/layui.js HTTP/1.1" 200 6542
+2020-04-07 17:38:20,464 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/js/jquery.min.js HTTP/1.1" 200 84355
+2020-04-07 17:38:20,476 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/js/xadmin.js HTTP/1.1" 200 6107
+2020-04-07 17:38:20,477 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/layui.css HTTP/1.1" 200 60227
+2020-04-07 17:38:20,543 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/form.js HTTP/1.1" 200 7925
+2020-04-07 17:38:20,600 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/layer.js HTTP/1.1" 200 22063
+2020-04-07 17:38:20,601 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/fonts/iconfont.woff HTTP/1.1" 200 30200
+2020-04-07 17:38:20,601 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/font/iconfont.woff?v=226_rc2 HTTP/1.1" 200 26840
+2020-04-07 17:38:20,645 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/lay/modules/element.js HTTP/1.1" 200 7264
+2020-04-07 17:38:20,645 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/lib/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 14425
+2020-04-07 17:38:20,666 [django.server:157] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-04-07 17:38:20,671 [django.server:157] [basehttp:log_message] [INFO]- "GET /static/favicon.ico HTTP/1.1" 200 1424

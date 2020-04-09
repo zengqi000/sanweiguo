@@ -25,3 +25,5 @@ https://www.jianshu.com/p/Ch5xpk
 腾讯云：
 zengqi
 Zzengqi!123
+
+pip install  -i "https://pypi.doubanio.com/simple/" requests

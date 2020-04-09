@@ -1,17 +1,21 @@
-import random
-from time import sleep
-from selenium import webdriver
+def fun(foo):
+    def add():
+        print('日志打印')
+        foo()
+        print('日志上传成功')
 
-list = []
-while True:
-    a = random.randint(1,51)
-    list.append(a)
-    sleep(1)
-    #print(a)
-    print(list)
+    return add
 
-# driver = webdriver.Chrome()
-# driver.get('https://www.baidu.com')
-# driver.maximize_window()
-# sleep(2)
-# driver.close()
+
+@fun
+def test01():
+    print('这是自动化用例01')
+
+
+@fun
+def test02():
+    print('这是自动化用例02')
+
+
+test01()
+test02()

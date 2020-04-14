@@ -5,7 +5,7 @@ from excel_case.operation.operation_excel import OperationExcel
 from excel_case.config.data_config import global_var
 from excel_case.operation.operation_json import OperationJson
 import json
-2
+
 host = 'http://150.158.115.43:31828'
 class RunTest:
     def __init__(self):

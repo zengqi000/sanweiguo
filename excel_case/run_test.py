@@ -6,6 +6,7 @@ from excel_case.config.data_config import global_var
 from excel_case.operation.operation_json import OperationJson
 import json
 
+host = 'http://150.158.115.43:31828'
 class RunTest:
     def __init__(self):
         self.run_method = ApiRunMain()
@@ -14,7 +15,7 @@ class RunTest:
     def go_on_run(self):
         rows_count = self.data.get_case_lines()
         for row in range(1,rows_count):
-            url = self.data.get_request_url(row)
+            url = host+self.data.get_request_url(row)
             method = self.data.get_request_method(row)
             is_run = self.data.get_is_run(row)
             data = json.dumps(self.data.get_data_for_json(row))

@@ -1,21 +1,13 @@
-def fun(foo):
-    def add():
-        print('日志打印')
-        foo()
-        print('日志上传成功')
-
-    return add
-
-
-@fun
-def test01():
-    print('这是自动化用例01')
-
-
-@fun
-def test02():
-    print('这是自动化用例02')
-
-
-test01()
-test02()
+#coding=utf-8
+dict = {"name":"zhangsan","age":19}
+for i in dict:
+    print('%s:%s' %(i,dict[i]))
+print(dict)
+dict['age']=12
+print(dict)
+dict['six']=1
+print(dict)
+del dict['age']
+print(dict)
+dict.clear()
+print(dict)

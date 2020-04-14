@@ -117,7 +117,7 @@ def env_update(request):
         Environment.objects.filter(env_id=env_id).update(env_name=env_name, url=url, project=project, private_key=private_key, description=description)
         return HttpResponseRedirect("/base/env/")
     env_id = request.GET['env_id']
-    env =Environment.objects.get(env_id=env_id)
+    env = Environment.objects.get(env_id=env_id)
     prj_list = Project.objects.all()
     return render(request, "base/env/update.html", {"env": env, "prj_list": prj_list})
 
@@ -129,14 +129,20 @@ def interface_index(request):
 
 def interface_add(request):
     if request.method == 'POST':
+        #接口名称
         if_name = request.POST['if_name']
+        #所属项目
         prj_id = request.POST['prj_id']
         project = Project.objects.get(prj_id=prj_id)
+        #url
         url = request.POST['url']
         method = request.POST['method']
+        #数据传输方式
         data_type = request.POST['data_type']
         is_sign = request.POST['is_sign']
+        #接口描述
         description = request.POST['description']
+        #请求header
         request_header_data = request.POST['request_header_data']
         request_body_data = request.POST['request_body_data']
         response_header_data = request.POST['response_header_data']

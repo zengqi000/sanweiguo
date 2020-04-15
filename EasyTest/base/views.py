@@ -215,6 +215,7 @@ def interface_update(request):
 
 
 
+
 # 接口增删改查
 def case_index(request):
     case_list = Case.objects.all()

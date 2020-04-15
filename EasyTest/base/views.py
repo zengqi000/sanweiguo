@@ -7,7 +7,7 @@ from lib.execute import Execute
 import time
 import json
 # Create your views here.
-
+from django.db import models
 
 
 # 项目增删改查
@@ -130,27 +130,31 @@ def interface_index(request):
 def interface_add(request):
     if request.method == 'POST':
         #接口名称
-        if_name = request.POST['if_name']
+        if_name = request.POST.get['if_name']
         #所属项目
         prj_id = request.POST['prj_id']
         project = Project.objects.get(prj_id=prj_id)
         #url
-        url = request.POST['url']
-        method = request.POST['method']
+        url = request.POST.get['url']
+        method = request.POST.get['method']
         #数据传输方式
-        data_type = request.POST['data_type']
-        is_sign = request.POST['is_sign']
+        data_type = request.POST.get['data_type']
+        is_sign = request.POST.get['is_sign']
         #接口描述
-        description = request.POST['description']
-        #请求header
-        request_header_data = request.POST['request_header_data']
-        request_body_data = request.POST['request_body_data']
-        response_header_data = request.POST['response_header_data']
-        response_body_data = request.POST['response_body_data']
+        description = request.POST.get['description']
+        #请求头
+        header = request.POST.get['header']
+        #请求参数
+        request_body_data = request.POST.get['request_body_data']
+        #预期结果
+        response_expect_data = request.POST.get['response_expect_data']
+        #实际结果
+        response_result_data = request.POST.get['response_result_data']
+
         interface = Interface(if_name=if_name, url=url, project=project, method=method, data_type=data_type,
-                          is_sign=is_sign, description=description, request_header_param=request_header_data,
-                          request_body_param=request_body_data, response_header_param=response_header_data,
-                          response_body_param=response_body_data)
+                          is_sign=is_sign, description=description, is_header=header,
+                          request_body_data=request_body_data, response_expect_data=response_expect_data,
+                          response_result_data=response_result_data)
         interface.save()
         return HttpResponseRedirect("/base/interface/")
     prj_list = Project.objects.all()

@@ -206,6 +206,7 @@ def interface_update(request):
         interface.save()
         return HttpResponseRedirect("/base/interface/")
     prj_list = Project.objects.all()
+
     return render(request, "base/interface/add.html", {"prj_list": prj_list})
 
 

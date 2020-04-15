@@ -122,6 +122,7 @@ def env_update(request):
     return render(request, "base/env/update.html", {"env": env, "prj_list": prj_list})
 
 
+
 # 接口增删改查
 def interface_index(request):
     if_list = Interface.objects.all()

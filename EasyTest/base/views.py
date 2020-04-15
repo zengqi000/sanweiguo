@@ -127,6 +127,7 @@ def interface_index(request):
     if_list = Interface.objects.all()
     return render(request, "base/interface/index.html", {"if_list": if_list})
 
+
 def interface_add(request):
     if request.method == 'POST':
         #接口名称

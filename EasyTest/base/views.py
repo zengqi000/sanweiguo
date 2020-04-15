@@ -24,7 +24,8 @@ def project_add(request):
             messages.error(request, "项目已存在")
         else:
             description = request.POST['description']
-            sign_id = request.POST['sign']
+            sign_id = 1
+            #sign_id = request.POST['sign']
             sign = Sign.objects.get(sign_id=sign_id)
             prj = Project(prj_name=prj_name, description=description, sign=sign)
             prj.save()
@@ -121,6 +122,11 @@ def env_update(request):
     prj_list = Project.objects.all()
     return render(request, "base/env/update.html", {"env": env, "prj_list": prj_list})
 
+def env_delete(request):
+    if request.method == 'GET':
+        env_id = request.GET['env_id']
+        Environment.objects.filter(env_id=env_id).delete()
+        return HttpResponseRedirect("base/env/")
 
 
 # 接口增删改查
@@ -131,35 +137,82 @@ def interface_index(request):
 def interface_add(request):
     if request.method == 'POST':
         #接口名称
-        if_name = request.POST.get['if_name']
+        if_name = request.POST['if_name']
         #所属项目
         prj_id = request.POST['prj_id']
         project = Project.objects.get(prj_id=prj_id)
         #url
-        url = request.POST.get['url']
-        method = request.POST.get['method']
+        url = request.POST['url']
+        method = request.POST['method']
         #数据传输方式
-        data_type = request.POST.get['data_type']
-        is_sign = request.POST.get['is_sign']
+        data_type = request.POST['data_type']
+        #is_sign = request.POST['is_sign']
+        is_sign = 1
         #接口描述
-        description = request.POST.get['description']
+        description = request.POST['description']
         #请求头
-        header = request.POST.get['header']
+        header = request.POST['header']
         #请求参数
-        request_body_data = request.POST.get['request_body_data']
+        request_body_data = request.POST['request_body_data']
         #预期结果
-        response_expect_data = request.POST.get['response_expect_data']
+        response_expect_data = request.POST['response_expect_data']
         #实际结果
-        response_result_data = request.POST.get['response_result_data']
+        response_result_data = request.POST['response_result_data']
 
         interface = Interface(if_name=if_name, url=url, project=project, method=method, data_type=data_type,
-                          is_sign=is_sign, description=description, is_header=header,
+                          is_sign=is_sign, description=description, header=header,
                           request_body_data=request_body_data, response_expect_data=response_expect_data,
                           response_result_data=response_result_data)
         interface.save()
         return HttpResponseRedirect("/base/interface/")
     prj_list = Project.objects.all()
     return render(request, "base/interface/add.html", {"prj_list": prj_list})
+
+def interface_delete(request):
+    if request.method == 'GET':
+        if_id = request.GET['if_id']
+        Interface.objects.filter(if_id=if_id).delete()
+        return HttpResponseRedirect("base/interface/")
+
+def interface_update(request):
+    if request.method == 'POST':
+        # 接口名称
+        if_name = request.POST['if_name']
+        # 所属项目
+        prj_id = request.POST['prj_id']
+        project = Project.objects.get(prj_id=prj_id)
+        # url
+        url = request.POST['url']
+        method = request.POST['method']
+        # 数据传输方式
+        data_type = request.POST['data_type']
+        # is_sign = request.POST['is_sign']
+        is_sign = 1
+        # 接口描述
+        description = request.POST['description']
+        # 请求头
+        header = request.POST['header']
+        # 请求参数
+        request_body_data = request.POST['request_body_data']
+        # 预期结果
+        response_expect_data = request.POST['response_expect_data']
+        # 实际结果
+        response_result_data = request.POST['response_result_data']
+
+        interface = Interface(if_name=if_name, url=url, project=project, method=method, data_type=data_type,
+                              is_sign=is_sign, description=description, header=header,
+                              request_body_data=request_body_data, response_expect_data=response_expect_data,
+                              response_result_data=response_result_data)
+        interface.save()
+        return HttpResponseRedirect("/base/interface/")
+    prj_list = Project.objects.all()
+    return render(request, "base/interface/add.html", {"prj_list": prj_list})
+
+
+
+
+
+
 
 # 接口增删改查
 def case_index(request):

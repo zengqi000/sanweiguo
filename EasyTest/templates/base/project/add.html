@@ -45,16 +45,16 @@
                             <textarea name="description" placeholder="请输入内容" class="form-control" rows="3"></textarea>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">签名方式</label>
-                        <div class="col-sm-6">
-                            <select name="sign" class="form-control">
-                                {% for sign in sign_list %}
-                                <option value={{ sign.sign_id }}>{{ sign.sign_name }}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                    </div>
+<!--                    <div class="form-group">-->
+<!--                        <label class="col-sm-2 control-label">签名方式</label>-->
+<!--                        <div class="col-sm-6">-->
+<!--                            <select name="sign" class="form-control">-->
+<!--                                {% for sign in sign_list %}-->
+<!--                                <option value={{ sign.sign_id }}>{{ sign.sign_name }}</option>-->
+<!--                                {% endfor %}-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-6">
                             <button type="submit" class="btn btn-primary">保存</button>

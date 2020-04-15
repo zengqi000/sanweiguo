@@ -22,14 +22,17 @@
 {% endblock %}
 
 {% block body %}
-<form action="" mothed="post">
+
 <div class="row">
     <div class="col-md-12">
         <div class="panel">
+
             <div class="panel-heading">
                 <h3 class="panel-title">添加接口</h3>
             </div>
+
             <div class="panel-body">
+                <form class="form-horizontal" method="post" action="/base/interface_add/">
                 <div class="form-horizontal">
                     <div class="form-group">
                         <label class="col-sm-2 control-label">接口名称</label>
@@ -40,7 +43,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">所属项目</label>
                         <div class="col-sm-8">
-                            <select type="text" id="prj_id" name="pro_id" class="form-control">
+                            <select type="text" id="prj_id" name="prj_id" class="form-control">
                                 {% for prj in prj_list %}
                                 <option value={{ prj.prj_id }}>{{ prj.prj_name }}</option>
                                 {% endfor %}
@@ -57,7 +60,7 @@
                         <label class="col-sm-2 control-label">请求方式</label>
                         <div class="col-sm-1 control-label">
                             <label class="fancy-radio">
-                                <input name="method" value="get" type="radio"><span><i></i>get</span>
+                                <input name="method" value="get" type="radio" checked><span><i></i>get</span>
                             </label>
                         </div>
                         <div class="col-sm-1 control-label">
@@ -90,19 +93,19 @@
                             </select>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">是否签名</label>
-                        <div class="col-sm-1 control-label">
-                            <label class="fancy-radio">
-                                <input name="is_sign" value="1" type="radio"><span><i></i>签名</span>
-                            </label>
-                        </div>
-                        <div class="col-sm-2 control-label">
-                            <label class="fancy-radio">
-                                <input name="is_sign" value="0" type="radio"><span><i></i>不签名</span>
-                            </label>
-                        </div>
-                    </div>
+<!--                    <div class="form-group">-->
+<!--                        <label class="col-sm-2 control-label">是否签名</label>-->
+<!--                        <div class="col-sm-1 control-label">-->
+<!--                            <label class="fancy-radio">-->
+<!--                                <input name="is_sign" value="1" type="radio"><span><i></i>签名</span>-->
+<!--                            </label>-->
+<!--                        </div>-->
+<!--                        <div class="col-sm-2 control-label">-->
+<!--                            <label class="fancy-radio">-->
+<!--                                <input name="is_sign" value="0" type="radio"><span><i></i>不签名</span>-->
+<!--                            </label>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <div class="form-group">
                         <label class="col-sm-2 control-label">接口描述</label>
                         <div class="col-sm-8">
@@ -141,11 +144,13 @@
                         </div>
                     </div>
                 </div>
+                </form>
             </div>
+
         </div>
     </div>
 </div>
-</form>
+
 {% endblock %}
 {% block javascript %}
 {% endblock %}

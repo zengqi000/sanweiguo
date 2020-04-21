@@ -11,6 +11,8 @@ Zzengqi!123
 密码：DNwEboyQjq7kM7JR
 
 pip install  -i "https://pypi.doubanio.com/simple/" requests
+
+
 并发
 https://www.jianshu.com/p/Ch5xpk
 如：一个100w访问的服务，每天访问集中白天8小时，每个用户大约会请求3个接口，每天早上9点是峰值。

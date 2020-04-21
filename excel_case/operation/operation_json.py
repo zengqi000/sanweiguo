@@ -10,7 +10,7 @@ class OperationJson:
     def read_data(self,kworld=None):
         json_file = GetFile().new_file('D:/py/sanweiguo/excel_case/data')
         # json_file = GetFile().new_file('../data')
-        with open(json_file) as fp:
+        with open(json_file,encoding='UTF-8') as fp:
             data = json.load(fp)
             return data
     #通过关键字获取数据

@@ -44,10 +44,10 @@ class Interface(models.Model):
     project = models.ForeignKey('Project', on_delete=models.CASCADE)
     is_sign = models.IntegerField()
     description = models.CharField(max_length=100)
-    request_header_param = models.TextField()
-    request_body_param = models.TextField()
-    response_header_param = models.TextField()
-    response_body_param = models.TextField()
+    header = models.TextField()
+    request_body_data = models.TextField()
+    response_expect_data = models.TextField()
+    response_result_data = models.TextField()
 
     def __str__(self):
         return self.if_name

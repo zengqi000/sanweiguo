@@ -30,6 +30,7 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
+
                         <th>ID</th>
                         <th>接口名称</th>
                         <th>所属项目</th>
@@ -40,13 +41,16 @@
                     <tbody>
                     {% for if in if_list %}
                     <tr>
+
                         <td>{{ if.if_id }}</td>
                         <td>{{ if.if_name }}</td>
                         <td>{{ if.project }}</td>
                         <td>{{ if.description }}</td>
                         <td>
-                            <a href="" class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
-                            <a href="" class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+                            <a href="/base/interface_update?if_id={{ if.if_id }}" class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+
+                            <a href="/base/interface_delete?if_id={{ if.if_id }}"
+                               class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
                         </td>
                     </tr>
                     {% endfor %}
